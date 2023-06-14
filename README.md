@@ -1,2 +1,2 @@
 # FinTech
-Securities Tracking and Modeling Interface
+Investment Tracking and Modeling Interface
