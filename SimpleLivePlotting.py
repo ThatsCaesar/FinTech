@@ -1,8 +1,8 @@
-import random
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 import yfinance as yf
 from datetime import datetime
+
 
 
 
@@ -19,7 +19,7 @@ fig, ax = plt.subplots()
 line, = ax.plot([], [])  # Create an empty line plot
 
 
-ax.set_title(str(symbol) +" price")
+ax.set_title(str(symbol) + " price")
 ax.set_xlabel("Index")
 ax.set_ylabel("Price [USD]")
 
